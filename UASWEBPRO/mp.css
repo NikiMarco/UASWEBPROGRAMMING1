@@ -1,0 +1,67 @@
+header {
+    background-color: #978787;
+    padding: 20px;
+    color: #fff;
+  }
+  body{
+  background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?cs=srgb&dl=pexels-pixabay-235985.jpg&fm=jpg);
+  }
+  /* Style untuk konten utama */
+  .container {
+    margin: 20px;
+  }
+  
+  .card{
+    margin: 30px;
+  }
+  /* Style untuk daftar produk */
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Style untuk footer */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    clear: both;
+  }
+  .cart-popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cart-content {
+    padding: 10px;
+  }
+  
+  .cart-content h3 {
+    margin-top: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item span {
+    margin-right: 10px;
+  }
+  
+  #cartItemCount {
+    display: none;
+    background-color: #f00;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 50%;
+  }
+  
